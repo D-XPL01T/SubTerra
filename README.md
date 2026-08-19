@@ -1,11 +1,4 @@
-# SubTerra
-
-   ______           _________    
-  / ____|     | |   |__   __|                   
- | (___  _   _| |__    | | ___ _ __ _ __ __ _   
-  \___ \| | | | '_ \   | |/ _ \ '__| '__/ _` |    
-  ____) | |_| | |_) |  | |  __/ |  | | | (_| |    
- |_____/ \__,_|_.__/   |_|\___|_|  |_|  \__,_| 
+SubTerra
 ```
 
 **A powerful subdomain enumeration tool written in pure Python that aggregates data from multiple sources to create comprehensive lists of root subdomains.**
