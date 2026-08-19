@@ -1,7 +1,7 @@
-SubTerra
+# SubTerra
 ```
 
-**A powerful subdomain enumeration tool written in pure Python that aggregates data from multiple sources to create comprehensive lists of root subdomains.**
+SubTerra is a powerful subdomain enumeration tool written in pure Python that aggregates data from multiple sources to create comprehensive lists of root subdomains.
 
 SubTerra aggregates subdomains from **17+ passive sources**, deduplicates results in real time, and presents a beautiful per-source summary table — all with nothing but the Python standard library.
 
@@ -11,15 +11,15 @@ SubTerra aggregates subdomains from **17+ passive sources**, deduplicates result
 
 ## ✨ Features
 
-- **17+ Data Sources** — Certificate Transparency logs, security APIs, OSINT datasets, and public bug-bounty archives
-- **Parallel Processing** — Scan all sources simultaneously with `--parallel`
-- **Real-Time Deduplication** — Thread-safe, cross-source duplicate removal for both stdout and file output
-- **Smart Normalization** — Automatically filters wildcard entries (`*.example.com`), email addresses, and invalid hostnames
-- **Verbose Summary Table** — Per-source counts, timings, and status in a clean box-drawing table
-- **File + Terminal Output** — Save results with `-o` while still streaming to the terminal
-- **Flexible Source Control** — Run a single source, or exclude the ones you don't want
-- **External Tool Support** — Integrates [subfinder](https://github.com/projectdiscovery/subfinder) via the `--all` flag
-- **Zero pip Dependencies** — Built entirely on the Python standard library (`urllib`, `json`, `re`, `csv`, `zipfile`, `threading`)
+- 17+ Data Sources** — Certificate Transparency logs, security APIs, OSINT datasets, and public bug-bounty archives
+- Parallel Processing** — Scan all sources simultaneously with `--parallel`
+- Real-Time Deduplication** — Thread-safe, cross-source duplicate removal for both stdout and file output
+- Smart Normalization** — Automatically filters wildcard entries (`*.example.com`), email addresses, and invalid hostnames
+- Verbose Summary Table** — Per-source counts, timings, and status in a clean box-drawing table
+- File + Terminal Output** — Save results with `-o` while still streaming to the terminal
+- Flexible Source Control** — Run a single source, or exclude the ones you don't want
+- External Tool Support** — Integrates [subfinder](https://github.com/projectdiscovery/subfinder) via the `--all` flag
+- Zero pip Dependencies** — Built entirely on the Python standard library (`urllib`, `json`, `re`, `csv`, `zipfile`, `threading`)
 
 ---
 
