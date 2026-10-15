@@ -1,9 +1,11 @@
 # SubTerra
 ```
 
-SubTerra is a powerful subdomain enumeration tool written in pure Python that aggregates data from multiple sources to create comprehensive lists of root subdomains.
+SubTerra is a powerful subdomain enumeration tool written in pure Python that aggregates data from multiple 
+sources to create comprehensive lists of root subdomains.
 
-SubTerra aggregates subdomains from **17+ passive sources**, deduplicates results in real time, and presents a beautiful per-source summary table — all with nothing but the Python standard library.
+SubTerra aggregates subdomains from **17+ passive sources**, deduplicates results in real time, and presents 
+a beautiful per-source summary table — all with nothing but the Python standard library.
 
 > *Made with jealousy by XPL01T* 🐍
 
